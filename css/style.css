@@ -197,6 +197,7 @@ header .header-box {
     top: 27px;
     width: 34px;
     height: 34px;
+    cursor: pointer;
 }
 
 .header-box > .search > .search-icon {
@@ -216,6 +217,7 @@ header .header-box {
     top: 26px;
     width: 34px;
     height: 34px;
+    cursor: pointer;
 }
 
 .header-box > .hamburger > .hamburger-btn {
@@ -1188,6 +1190,7 @@ footer > .footer-wrap > .link-wrap {
     border-bottom: 1px solid #dbdbdb;
     font-family: 'roboto';
     font-weight: 300;
+    cursor: pointer;
 }
 
 footer > .footer-wrap > .link-wrap > div {
@@ -1204,6 +1207,7 @@ footer > .footer-wrap > .icon-wrap > div {
     width: 32px;
     height: 32px;
     margin: 0 8px;
+    cursor: pointer;
 }
 
 footer > .footer-wrap > .icon-wrap > .facebook {

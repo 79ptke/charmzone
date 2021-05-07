@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>참존 모작</title>
+
+    <!--제이쿼리 소스-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+    <!--swiperslide 소스-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--googlefont 소스-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-box">
+            <div class="logo">
+                <img src="img/img_logo_header.png" alt="">
+            </div>
+            <div class="lang">
+                <span class="lang-kr">KR</span>
+                <div class="lang-other">
+                    <a href="#" class="on">KR</a>
+                    <a href="#">CH</a>
+                    <a href="#">EN</a>
+                </div>
+            </div>
+            <div class="nav">
+                <ul class="row con">
+                    <li class="cell"><a href="#">ABOUT</a></li>
+                    <li class="cell"><a href="#">INNOVATION</a></li>
+                    <li class="cell"><a href="#">BRAND</a></li>
+                    <li class="cell-right"><a href="#">SHOP</a></li>
+                    <li class="cell-right"><a href="#">GLOBAL NETWORK</a></li>
+                    <li class="cell-right"><a href="#">PR</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <div class="search-icon"><img src="img/img_search_global.png" alt=""></div>
+            </div>
+            <div class="hamburger">
+                <div class="hamburger-btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- class 변경 안됨 추가는 가능 -->
+    <!-- slider -->
+    <div class="main-slider-wrap">
+        <div class="swiper-container slide01">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg01">
+                    <div class="slider-txt">
+                        <div class="tp-txt">
+                            <h1>INNOVATION</h1>
+                        </div>
+                        <div class="mid-txt">
+                            <P>참존은 35년간 역사를 자랑하는 기초 화장품 전문 브랜드입니다.<br>
+                                자연에서 얻은 좋은 원료를 기반으로 오직 국내에서 제조합니다.</P>
+                        </div>
+                        <div class="btm-txt"><a href="#">Detail View</a></div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide bg02">
+                    <div class="slider-txt">
+                        <div class="tp-txt">
+                            <h1>INNOVATE . IMPROVE</h1>
+                        </div>
+                        <div class="mid-txt">
+                            <P>제품 혁신을 통한 피부개선<br>
+                                피부 개선을 위한 끊임없는 제품 개발과 연구에 힘쓰고 이를 고객의 피드백과 과학적 연구 결과로 입증해 나가는<br>
+                                스킨 케어 시스템을 갖추기 위한 다짐을 담습니다.</P>
+                        </div>
+                        <div class="btm-txt"><a href="#">Detail View</a></div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide bg03">
+                    <div class="slider-txt">
+                        <div class="tp-txt">
+                            <h1>BEAUTY & SCIENCE</h1>
+                        </div>
+                        <div class="mid-txt">
+                            <P>남들이 가지 않은 길을 걸으며,세상에 없던 제품을 만들어온 청개구리 정신의 초심은<br>
+                                피부의 아름다움에서 삶의 아름다움으로 이끄는 참존의 새로운 행보에도 계속될 것입니다.</P>
+                        </div>
+                        <div class="btm-txt"><a href="#">Detail View</a></div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="btn-next">
+                <div class="next"></div>
+            </div>
+            <div class="btn-prev">
+                <div class="prev"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="start"></div>
+            <div class="stop"></div>
+            
+        </div>
+    </div>
+
+
+
+
+    <div class="search-popup">
+        <div class="logo">
+            <img src="img/img_logo_header.png" alt="">
+        </div>
+        <div class="bg-img">
+            <img src="img/img_background_globalsearch.png" alt="">
+        </div>
+        <div class="search-txt">
+            <input type="search" placeholder="제품명을 입력해주세요." style="border: none; background: transparent;">
+            <div class="icon cell-right">
+                <img src="img/img_btn_search.png" alt="">
+            </div>
+        </div>
+        <div class="X-btn">
+            <img src="img/img_close_popnav.png" alt="">
+        </div>
+    </div>
+
+
+
+
+    <div class="menu-2-depth">
+        <div class="right-menu cell-right">
+            <div class="search-box-mobile">
+                <div class="search-txt">
+                    <input type="search" placeholder="제품검색" style="border: none; background: transparent;">
+                    <div class="icon cell-right">
+                        <img src="img/img_btn_search.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="nav-box">
+                <ul>
+                    <li>ABOUT US
+                        <ul>
+                            <li>CEO 인사말</li>
+                            <li>기업이념</li>
+                            <li>회사연혁</li>
+                            <li>비쥬얼 아이덴티티</li>
+                            <li>인재채용</li>
+                            <li>오시는길</li>
+                        </ul>
+                    </li>
+                    <li>INNOVATION
+                        <ul>
+                            <li>연구센터</li>
+                            <li>연구성과</li>
+                        </ul>
+                    </li>
+                    <li>BRAND
+                        <ul>
+                            <li>CHARMZONE</li>
+                            <li>DR.FROG</li>
+                            <li>DeAGE</li>
+                            <li>Charm in Cell</li>
+                        </ul>
+                    </li>
+                    <li>PR
+                        <ul>
+                            <li>뉴스</li>
+                            <li>홍보영상</li>
+                            <li>매거진</li>
+                            <li>세미나</li>
+                        </ul>
+                    </li>
+                    <li>GLOBAL NETWORK</li>
+                    <li>SHOP</li>
+                </ul>
+            </div>
+            <div class="X-btn">
+                <img src="img/img_close_popnav.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--section01 -->
+    <div class="news">
+        <div class="section01-wrap">
+        <div class="section01 con">
+            <h3>NEWS</h3>
+            <!-- Swiper -->
+            <div class="swiper-container slide02">
+                <div class="swiper-wrapper row">
+                    <div class="swiper-slide cell">
+                        <a href="#"><img src="CHARMZONE_files/210105.jpg" alt=""></a>
+                        <div class="txt">
+                            <p>2021-01-05</p>
+                            <p>콜라겐 효과 극대화...겨울철 피부에 보습.영양<br>
+                                을 [fn뉴트렌드리딩]</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide cell">
+                        <a href="#"><img src="CHARMZONE_files/200928(2).jpg" alt=""></a>
+                        <div class="txt">
+                            <p>2021-01-05</p>
+                            <p>'동결건조 큐브 콜라겐'파별화...피부 보습 관리</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide cell">
+                        <a href="#"><img src="CHARMZONE_files/201203.jpg" alt=""></a>
+                        <div class="txt">
+                            <p>2020-12-03</p>
+                            <p>참존, 밀레와 콜라보 진행 2일부터 '산타박스 이<br>
+                                벤트' 시작</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide cell">
+                        <a href="#"><img src="CHARMZONE_files/201125.jpg" alt=""></a>
+                        <div class="txt">
+                            <p>2020-11-25</p>
+                            <p>참존, 창립 36주년 기념 '생일파티.한정판 이벤<br>
+                                트' 진행</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide cell">
+                        <a href="#"><img src="CHARMZONE_files/200928(3).jpg" alt=""></a>
+                        <div class="txt">
+                            <p>2020-12-04</p>
+                            <p>[서울신문 2020 베스트브랜드] 참존 '탑클래스<br>
+                                더 콜라겐 리프팅' 선정</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide cell">
+                        <a href="#"><img src="CHARMZONE_files/201022_중앙일보_2020 소비자의 선택 (썸네일).jpg" alt=""></a>
+                        <div class="txt">
+                            <p>2020-10-30</p>
+                            <p>[중앙일보 2020 소비자의 선택] 참존 '탑클래스<br>
+                                더 콜라겐 리프팅' 선정</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    
+
+
+
+
+
+    <!-- 슬라이드 2개 연동-->
+    <div class="section02-wrap-02 con row">
+        <div class="swiper-container slide04 cell">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide photo1">
+                    <a href="#">
+                        <img src="CHARMZONE_files/PC_00Main_브랜드배너_05.DEAGE_Ver01_20180531.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide photo2">
+                    <a href="#">
+                        <img src="CHARMZONE_files/02_Brand01.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide photo3">
+                    <a href="#">
+                        <img src="CHARMZONE_files/PC_00Main_브랜드배너_03.CHARMINCELL_Ver01_20180531.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="swiper-container slide05 cell">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="txt-slide">
+<!--                       <img src="CHARMZONE_files/02_Brand01.jpg" alt="">-->
+                        <div class="txt-box">
+                            <p>DeAGE RED-ADDTION</p>
+                            <p>도시 속 지친 피부를 싱그럽게 지켜주는 레드 에너지,<br>
+                                디에이지 레드-에디션</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="txt-slide">
+                        <div class="txt-box">
+                            <p>DR.FROG</p>
+                            <p>피부를 위한 50여 년의 이야기<br>
+                                피부장인이 자신 있게 제안하는, 닥터프로그</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="txt-slide">
+                        <div class="txt-box">
+                            <p>CAHRM IN CELL</p>
+                            <p>피부 고민에 새로운 솔루션을 제시하는<br>
+                                참존 피부과학의 결정체, 참인셀</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add Pagination-->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows-->
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="section03-wrap con">
+        <div class="section03">
+           <img src="CHARMZONE_files/img_blank.png" alt="">
+            <div class="txt-box">
+                <p>GLOBAL CHARMZONE</p>
+                <p>진정한 명품은 세계 어디에서나 인정받는다는 사실,<br class="bbb">전 세계 24개국이 참존을 입증하고 있습니다.</p>
+                <div class="btm-txt"><a href="#">Detail View</a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="section04-wrap">
+        <div class="section04">
+            <div class="txt-box">
+                <p>INNOVATION</p>
+                <p>오랜기간 기초화장품을 연구해 온 기술력을 바탕으로 피부노화 연구의<br>뛰어난 기술력과 지적 자산을 보유하고 있습니다.</p>
+            </div>
+            <div class="box-wrap rox">
+                <div class="box1 cell">
+                    <div class="img"></div>
+                    <a href="#">융합 연구소</a>
+                    <div class="X-btm"></div>
+                </div>
+                <div class="box2 cell">
+                    <div class="img"></div>
+                    <a href="#">분석 연구소</a>
+                    <div class="X-btm"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="footer-wrap">
+            <div class="btn-top">
+                <img src="img/img_ancher_footer.png" alt="">
+                <a href="#">TOP</a>
+            </div>
+            <div class="link-wrap row">
+                <div class="sitemap cell">SITEMAP</div>
+                <div class="familysite cell">FAMILYSITE</div>
+            </div>
+            <div class="icon-wrap row">
+                <div class="facebook cell">
+                    <a href="#"></a>
+                </div>
+                <div class="blog cell">
+                    <a href="#"></a>
+                </div>
+                <div class="instargram cell">
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="txt-wrap">
+                <p>COPYRIGHT(C) CHARMWONE CO.LTD.</p>
+                <p>ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+</body></html>

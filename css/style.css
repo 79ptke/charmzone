@@ -283,21 +283,21 @@ header .header-box {
 }
 
 .main-slider-wrap > .swiper-container .swiper-wrapper .bg01 {
-    background-image: url(/img/main01.jpg);
+    background-image: url(../img/main01.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .main-slider-wrap > .swiper-container .swiper-wrapper .bg02 {
-    background-image: url(/img/main02.jpg);
+    background-image: url(../img/main02.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .main-slider-wrap > .swiper-container .swiper-wrapper .bg03 {
-    background-image: url(/img/main03.jpg);
+    background-image: url(../img/main03.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -408,11 +408,11 @@ header .header-box {
 .prev {
     width: 12px;
     height: 50px;
-    background-image: url(/img/img_prev_mainvisual.png);
+    background-image: url(../img/img_prev_mainvisual.png);
 }
 
 .prev:hover {
-    background-image: url(/img/img_prev_mainvisual_hover.png);
+    background-image: url(../img/img_prev_mainvisual_hover.png);
 }
 
 .prev::after {
@@ -447,12 +447,12 @@ header .header-box {
 .next {
     width: 12px;
     height: 50px;
-    background-image: url(/img/img_next_mainvisual.png);
+    background-image: url(../img/img_next_mainvisual.png);
     float: right;
 }
 
 .next:hover {
-    background-image: url(/img/img_next_mainvisual_hover.png);
+    background-image: url(../img/img_next_mainvisual_hover.png);
 }
 
 .next::after {
@@ -498,7 +498,7 @@ header .header-box {
 .swiper-pagination-bullet-active {
     opacity: 1;
     background: var(--swiper-pagination-color, var(--swiper-theme-color));
-    background-image: url(/img/img_page_mainvisual_on.png);
+    background-image: url(../img/img_page_mainvisual_on.png);
 }
 
 .main-slider-wrap .start,
@@ -514,13 +514,13 @@ header .header-box {
 }
 
 .main-slider-wrap .start {
-    background-image: url(/img/img_pause_mainvisual.png);
+    background-image: url(../img/img_pause_mainvisual.png);
     background-repeat: no-repeat;
     display: block;
 }
 
 .main-slider-wrap .stop {
-    background-image: url(/img/img_play_mainvisual.png);
+    background-image: url(../img/img_play_mainvisual.png);
     background-repeat: no-repeat;
     display: none;
 }
@@ -959,7 +959,7 @@ input::-webkit-search-results-decoration {
     right: 380px;
     top: 484px;
     left: auto;
-    background-image: url(/img/img_main_swiper_next.png);
+    background-image: url(../img/img_main_swiper_next.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -969,7 +969,7 @@ input::-webkit-search-results-decoration {
     left: 372px;
     top: 484px;
     right: auto;
-    background-image: url(/img/img_main_swiper_prev.png);
+    background-image: url(../img/img_main_swiper_prev.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -983,7 +983,7 @@ input::-webkit-search-results-decoration {
     height: 615px;
     width: 100%;
     padding: 50px 0;
-    background-image: url(/img/img_main_section3_1.png);
+    background-image: url(../img/img_main_section3_1.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1060,7 +1060,7 @@ input::-webkit-search-results-decoration {
 .section04-wrap > .section04 {
     width: 100%;
     height: 530px;
-    background-image: url(/img/img_main_section4_1.jpg);
+    background-image: url(../img/img_main_section4_1.jpg);
     background-position: center;
     position: relative;
 }
@@ -1116,7 +1116,7 @@ input::-webkit-search-results-decoration {
 }
 
 .section04-wrap > .section04 > .box-wrap > .box1 > .img {
-    background-image: url(/img/img_main_section4_2.png);
+    background-image: url(../img/img_main_section4_2.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 73px;
@@ -1125,7 +1125,7 @@ input::-webkit-search-results-decoration {
 }
 
 .section04-wrap > .section04 > .box-wrap > .box2 > .img {
-    background-image: url(/img/img_main_section4_3.png);
+    background-image: url(../img/img_main_section4_3.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 73px;
@@ -1139,7 +1139,7 @@ input::-webkit-search-results-decoration {
     width: 22px;
     height: 22px;
     float: right;
-    background-image: url(/img/img_main_section4_4.png);
+    background-image: url(../img/img_main_section4_4.png);
     transition: transform .8s ease-in-out;
 }
 
@@ -1207,19 +1207,19 @@ footer > .footer-wrap > .icon-wrap > div {
 }
 
 footer > .footer-wrap > .icon-wrap > .facebook {
-    background-image: url(/img/img_sns_facebook.png);
+    background-image: url(../img/img_sns_facebook.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 footer > .footer-wrap > .icon-wrap > .blog {
-    background-image: url(/img/img_sns_blog.png);
+    background-image: url(../img/img_sns_blog.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 footer > .footer-wrap > .icon-wrap > .instargram {
-    background-image: url(/img/img_sns_instagram.png);
+    background-image: url(../img/img_sns_instagram.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1409,7 +1409,7 @@ footer > .footer-wrap > .txt-wrap {
     .section03-wrap {
         width: auto;
         height: auto;
-        background: url(/img/img_main_section3_1_tablet.png) no-repeat 50% 20px;
+        background: url(../img/img_main_section3_1_tablet.png) no-repeat 50% 20px;
     }
 
     .section03-wrap > .section03 {
@@ -1442,7 +1442,7 @@ footer > .footer-wrap > .txt-wrap {
     .section04-wrap > .section04 {
         background-size: auto 530px;
         width: auto;
-        background-image: url(/img/img_main_section4_1_tablet.jpg);
+        background-image: url(../img/img_main_section4_1_tablet.jpg);
     }
 
     .section04-wrap > .section04 > .txt-box {
@@ -1605,7 +1605,7 @@ footer > .footer-wrap > .txt-wrap {
     .menu-2-depth > .right-menu > .X-btn {
         width: 14px;
         height: 14px;
-        background-image: url(/img/img_close_popnav.png);
+        background-image: url(../img/img_close_popnav.png);
         background-size: cover;
     }
 
@@ -1822,7 +1822,7 @@ footer > .footer-wrap > .txt-wrap {
         padding: 0;
         height: 350px;
         line-height: 350px;
-        background-image: url(/img/img_main_section4_1_mobile.jpg);
+        background-image: url(../img/img_main_section4_1_mobile.jpg);
         background-size: auto 100%;
     }
 

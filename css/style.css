@@ -1273,25 +1273,34 @@ footer > .footer-wrap > .icon-wrap > div {
     width: 32px;
     height: 32px;
     margin: 0 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
     cursor: pointer;
 }
 
 footer > .footer-wrap > .icon-wrap > .facebook {
     background-image: url(../img/img_sns_facebook.png);
-    background-position: center;
-    background-repeat: no-repeat;
 }
+
+footer > .footer-wrap > .icon-wrap > .facebook:hover {
+    background-image: url(../img/img_sns_facebook_on.png);
+} 
 
 footer > .footer-wrap > .icon-wrap > .blog {
     background-image: url(../img/img_sns_blog.png);
-    background-position: center;
-    background-repeat: no-repeat;
+}
+
+footer > .footer-wrap > .icon-wrap > .blog:hover {
+    background-image: url(../img/img_sns_blog_on.png);
 }
 
 footer > .footer-wrap > .icon-wrap > .instargram {
     background-image: url(../img/img_sns_instagram.png);
-    background-position: center;
-    background-repeat: no-repeat;
+}
+
+footer > .footer-wrap > .icon-wrap > .instargram:hover {
+    background-image: url(../img/img_sns_instagram_on.png);
 }
 
 footer > .footer-wrap > .txt-wrap {
